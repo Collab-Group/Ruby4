@@ -4,3 +4,4 @@ Ruby4 is a hobbyist operating system, using the foundation of MOOS with my ideas
 Ruby4 encourages exploration and experimentation with its user friendly source code, with it's kernel and applications being written purely in C# using MOOS and [CMOOS](https://github.com/avalontm/CMOOS).
 
 # Compiling Ruby 4
+Ruby4 and MOOS both use NativeAOT to convert highier level programming languages like Python, JavaScript, C# and Java into machine language.
