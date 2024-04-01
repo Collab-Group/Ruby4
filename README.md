@@ -1,5 +1,6 @@
 # Ruby4
 Ruby4 is a hobbyist operating system, using certain elements of MOSA with my ideas and code built on top of it.
+![image](https://github.com/Collab-Group/Ruby4/assets/142925534/838eaa88-04a6-476f-b436-1e7a11483489)
 
 Ruby4 encourages exploration and experimentation with its not-so user friendly source code, with it's kernel and applications being written purely in C#.
 
