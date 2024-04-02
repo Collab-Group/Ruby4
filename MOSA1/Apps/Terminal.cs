@@ -34,7 +34,6 @@ namespace MOSA1.Apps
         {
             KeyCode = Console.ReadKey(false);
 
-
             if (KeyCode == KeyCode.Delete)
             {
                 if (ContinuableCommand == "")
@@ -126,7 +125,7 @@ namespace MOSA1.Apps
         private unsafe void ProcessCommand()
         {
             string CMD = Command.ToUpper();
-            if (CMD == "ABOUT")
+            if (CMD == "WELCOME")
             {
                 System.Add(new Welcome() { X = 100, Y = 350, Width = 700, Height = 350 });
                 WriteLine("About passed onto Window: 'Welcome to Ruby4!'");
@@ -239,7 +238,7 @@ namespace MOSA1.Apps
 
             System.Graphics.DrawImageASM(virtualGraphics.bitmap, X, Y);
 
-            System.Graphics.DrawBitFontString(System.DefaultFontName, 0xFFF0F3F4, "_", X + CursorX, Y + CursorY);
+            System.Graphics.DrawBitFontString(System.terminalFont, 0xFFF0F3F4, "_", X + CursorX, Y + CursorY);
             //System.Graphics.DrawBitFontString("ArialCustomCharset24", Color.White.ToArgb(), "Message: ", 10, 30);
         }
     }
