@@ -1,0 +1,28 @@
+# bin
+bin/ref/*
+Mosa.Compiler*
+Mosa.External*
+Mosa.Platform*
+Mosa.Plug*
+Mosa.Runtime*
+Mosa.Kernel*
+dnlib.dll
+MOSA1.deps.json
+MOSA1.dll
+MOSA1.pdb
+MOSA1.runtimeconfig.dev.json
+MOSA1.runtimeconfig.json
+mscorlib.dll
+mscorlib.pdb
+PriorityQueue.dll
+
+# obj
+obj/
+!apphost.exe
+
+# vs
+.vs/
+.vscode/
+
+# macOS contributors
+.DS_Store
