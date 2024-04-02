@@ -18,7 +18,7 @@ PriorityQueue.dll
 
 # obj
 obj/
-!apphost.exe
+!MOSA1/obj/Debug/apphost.exe
 
 # vs
 .vs/
