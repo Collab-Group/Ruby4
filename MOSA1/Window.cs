@@ -1,9 +1,11 @@
-﻿using Mosa.External.x86.Drawing;
+﻿using Mosa.External.x86;
+using Mosa.External.x86.Drawing;
 using Mosa.External.x86.Drawing.Fonts;
 using Mosa.External.x86.Driver;
 using Mosa.Runtime;
 using MOSA1.Apps;
 using System;
+using System.Drawing;
 
 namespace MOSA1
 {
@@ -19,6 +21,8 @@ namespace MOSA1
         private static bool Move = false;
         private int OffsetX;
         private int OffsetY;
+
+        KeyCode KeyCode;
 
         public string Title = "Developer SDK Sample";
         public static int BarHeight = 20;
@@ -65,6 +69,7 @@ namespace MOSA1
 
             if (!LiterallyWindow)
             {
+
                 if (PS2Mouse.MouseStatus == Mosa.External.x86.Driver.Input.MouseStatus.Left)
                 {
                     if (PS2Mouse.X > X && PS2Mouse.X < X + Width && PS2Mouse.Y > Y - BarHeight && PS2Mouse.Y < Y && !Move && !HandleMouse)
@@ -122,12 +127,14 @@ namespace MOSA1
                 //Hide
                 //System.Graphics.DrawFilledRectangle(0x313131, X + Width - BarHeight, Y - BarHeight, BarHeight, BarHeight);
             }
-            /*
-            else
-            {
-                InputUpdate();
-            }
-            */
+            
+            //else
+         //   {
+        //        InputUpdate();
+          //  }
+
+            
+           
 
 
             const int Rad = 5;
@@ -137,6 +144,7 @@ namespace MOSA1
                 System.Graphics.DrawFilledRectangle(0xFFF0F3F4, X, Y, Width, Height);
 
                 System.Graphics.DrawFilledCircle(0xFFFF0000, X + Width - Rad * 2, Y - BarHeight + Rad * 2, Rad);
+
             }
 
             if (Actived || this.LiterallyWindow)
@@ -160,6 +168,7 @@ namespace MOSA1
 
         public virtual void InputUpdate()
         {
+
         }
 
         public void Exit()
