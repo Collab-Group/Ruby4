@@ -73,3 +73,35 @@ When it asks "Install Visual Studio Intergration?" press y and hit enter
 When it says "Press any key to continue" press any key and reboot your system
 
 ### Compiling
+
+Extract the Ruby4 files 
+
+![Extract ruby4](imgs/extract.png)
+
+Now open Visual Studio as admin
+
+![Visual Studio](imgs/vsrunasadmin.png)
+
+Now click "Open a project or solution
+
+![Visual Studio](imgs/vsopen.png)
+
+Now locate where you extracted the Ruby4 files and open the file called "MOSA1.sln"
+
+![Visual Studio](imgs/vsopenfile.png)
+
+Click "Build" and then "Build Solution"
+
+![Visual Studio](imgs/build.png)
+
+After that completes click "Compile and Run"
+
+![Visual Studio](imgs/run.png)
+
+It will open a VirtualBox or VMware player window once it completes
+
+![VirtualBox](imgs/vboxrunning.png)
+
+The iso will be stored at "C:\Program Files\MOSA-Core\output\" called "MOSA.iso"
+
+If u encounter any issues message waffletm on discord
