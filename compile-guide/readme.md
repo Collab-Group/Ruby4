@@ -1,3 +1,3 @@
 # Compile guide
 
-![.net installer](compile-guide/imgs/net5.0installer.PNG)
+![.net installer](/imgs/net5.0installer.PNG)
