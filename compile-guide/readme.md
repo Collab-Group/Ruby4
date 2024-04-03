@@ -66,5 +66,10 @@ When it asks "Select the desired task" type "install" and hit enter
 
 ![MOSA Compiler tools](imgs/installbat2.PNG)
 
+When it asks "Install Visual Studio Intergration?" press y and hit enter
+
+![MOSA Compiler tools](imgs/installbat3.PNG)
+
+When it says "Press any key to continue" press any key and reboot your system
 
 ### Compiling
