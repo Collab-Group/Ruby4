@@ -32,7 +32,7 @@ After its installed close the installer
 
 ![Visual studio installer](imgs/vsinstall3.PNG)
 
-Click "Not now, Maybe later" if you wont want to login
+Click "Not now, Maybe later" if you don't want to login
 
 ![Visual studio installer](imgs/vsinstall4.PNG)
 
