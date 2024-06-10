@@ -19,10 +19,15 @@ PriorityQueue.dll
 # obj
 obj/
 !MOSA/obj/Debug/apphost.exe
+!MOSA/obj/Debug/README.md
 
 # vs
 .vs/
 .vscode/
+
+# script
+/cache/
+run_marker.txt
 
 # macOS contributors
 .DS_Store

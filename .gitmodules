@@ -1,0 +1,3 @@
+[submodule "CORE"]
+	path = CORE
+	url = https://github.com/Collab-Group/mosa-core
