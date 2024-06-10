@@ -94,12 +94,13 @@ if defined pause_flag (
 set /p run_install=Do you want to run the install.bat inside the CORE directory? [Y/N] 
 if /i "%run_install%"=="Y" (
     powershell -Command "Start-Process '%script_dir%CORE\install.bat' -Verb RunAs"
+    set /p=Select Install and press ENTER once complete to continue...
 ) else (
     echo Skipping install.bat execution.
 )
 
 @echo off
-set /p copy_files=Do you want to copy CORE files (required for working build)? [Y/N] 
+set /p copy_files=Do you want to copy MOSA-Core files (required for working build)? [Y/N] 
 if /i "%copy_files%"=="Y" (
     echo Copying MOSA-Core...
     mkdir "C:\Program Files\MOSA-Core"
